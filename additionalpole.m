@@ -1,0 +1,16 @@
+clc;
+s = tf('s');
+g11=5/(s+5);
+g12=10/(s+10);
+g13=20/(s+20);
+g2=tf(10,[1 2 10]);
+sys1=series(g2,g11);
+sys2=series(g2,g12);
+sys3=series(g2,g13);
+subplot(1,2,1);
+step(sys1,sys2,sys3);
+legend('p=5','p=10','p=20');
+subplot(1,2,2);
+pzmap(sys1,sys2,sys3);
+legend('p=5','p=10','p=20');
+grid on;
