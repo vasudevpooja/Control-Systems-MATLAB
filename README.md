@@ -2,15 +2,19 @@
 
 
 **The objective of the exercise is to become familiar with writing Matlab programs for control systems.**
-   1.    Product of two polynomials: Let p1(s) and p2(s) be two polynomials. Use Matlab to determine the product of these two polynomials. 
+   1.    **Product of two polynomials:** 
+         Let p1(s) and p2(s) be two polynomials. Use Matlab to determine the product of these two polynomials. 
 Obtaining the overall transfer function (Block diagram algebra):
 Let ![Aspose Words 1db1f892-f5ad-4e3d-a017-6a61b29ad5d3 001](https://user-images.githubusercontent.com/76071184/144806674-9e82f894-cef4-4943-ae4f-8d38f90206c8.png) and ![Aspose Words 1db1f892-f5ad-4e3d-a017-6a61b29ad5d3 002](https://user-images.githubusercontent.com/76071184/144806703-a01a0b63-4055-48c2-9ac9-88496a6bb68b.png) be the two given transfer functions, where 𝐺1(𝑠) and 𝐺2(𝑠) are transfer functions of arbitrary order. 
 
-   2.    Transfer functions in cascade or series: Write a program that allows the user to input the numerator and denominator polynomials of two transfer functions, and outputs the numerator and denominator polynomials of the overall transfer function. 
+   2.    **Transfer functions in cascade or series:** 
+         Write a program that allows the user to input the numerator and denominator polynomials of two transfer functions, and outputs the numerator and denominator polynomials of the overall transfer function. 
   
-   3.    Transfer functions in parallel:* Write a program that allows the user to input the numerator and denominator polynomials of two transfer functions, and outputs the numerator and denominator polynomials of the overall transfer function. 
+   3.    **Transfer functions in parallel:**
+         Write a program that allows the user to input the numerator and denominator polynomials of two transfer functions, and outputs the numerator and denominator polynomials of the overall transfer function. 
 
-   4.    *Transfer functions in a feedback loop:* Write a program that allows the user to input the numerator and denominator polynomials of two transfer functions, and outputs the numerator and denominator polynomials of the overall transfer function. Here, 𝐺1(𝑠)* is the forward path transfer function, and 𝐺2(𝑠) is the feedback path transfer function.
+   4.    **Transfer functions in a feedback loop:**
+         Write a program that allows the user to input the numerator and denominator polynomials of two transfer functions, and outputs the numerator and denominator polynomials of the overall transfer function. Here, 𝐺1(𝑠)* is the forward path transfer function, and 𝐺2(𝑠) is the feedback path transfer function.
    
 **The objective of this exercise is to learn to use Simulink. Consider a circuit with a resistance R, an inductance L, and a capacitance C, all in series with a voltage source.** 
   
