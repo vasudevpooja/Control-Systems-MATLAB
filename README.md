@@ -38,7 +38,6 @@ Let ![Aspose Words 1db1f892-f5ad-4e3d-a017-6a61b29ad5d3 001](https://user-images
    2. **Second-order systems:** 
    Consider ![Aspose Words 1db1f892-f5ad-4e3d-a017-6a61b29ad5d3 009](https://user-images.githubusercontent.com/76071184/144808208-997d8b29-d0a4-4b9d-820f-f00cb0649576.png) Compare in terms of rise time, the settling time, the peak overshoot, and steady-state value the step responses of this system for different values of *a*: Choose a = 0.1, 2.5, 5, 7.5, 10. (Use the definitions in the prescribed text-book.) Ask questions similar to that in first order system, and discuss the results. 
 
-
    3.**The effect of an additional pole:**
    Consider ![Aspose Words 1db1f892-f5ad-4e3d-a017-6a61b29ad5d3 010](https://user-images.githubusercontent.com/76071184/144808321-8fb15dc5-3d92-42b2-96ce-877f73bd6708.png) in cascade with a second order system ![Aspose Words 1db1f892-f5ad-4e3d-a017-6a61b29ad5d3 011](https://user-images.githubusercontent.com/76071184/144808411-dc76c3c3-38db-4237-875e-a46b3e66d460.png) Repeat the second order for different values of *p*. Choose p = 5, 10, 20. In your discussions, include as well a comparison of these results with those obtained in second order system. 
 
@@ -46,52 +45,17 @@ Let ![Aspose Words 1db1f892-f5ad-4e3d-a017-6a61b29ad5d3 001](https://user-images
    Consider ![Aspose Words 1db1f892-f5ad-4e3d-a017-6a61b29ad5d3 012](https://user-images.githubusercontent.com/76071184/144808806-b492d2ce-58c9-47e6-902e-6bfab484228a.png)
  . Repeat the second order system for different values of *a*. Choose a = 0.1, 1, 10, 100. In your discussion, include as well a comparison of these results with those obtained in second order system. 
 
-1. The objective of this exercise is to compare the response of systems to different kinds of inputs. Consider the two systems ![](Aspose.Words.1db1f892-f5ad-4e3d-a017-6a61b29ad5d3.010.png) and 
+**The objective of this exercise is to compare the response of systems to different kinds of inputs.**
+Consider the two systems ![Aspose Words 1db1f892-f5ad-4e3d-a017-6a61b29ad5d3 010](https://user-images.githubusercontent.com/76071184/144809016-56f9aecd-2936-4dd7-90bf-91f977dd2254.png) and ![Aspose Words 1db1f892-f5ad-4e3d-a017-6a61b29ad5d3 013](https://user-images.githubusercontent.com/76071184/144809030-e1182a8b-e692-4423-ac9c-3474e369d691.png) Compare the responses of these systems to a step  input and a unit-ramp input. Do the outputs follow or track the input? If so, why? If not, why not? Can one theoretically deduce these results? 
 
-![](Aspose.Words.1db1f892-f5ad-4e3d-a017-6a61b29ad5d3.013.png). Compare the responses of these systems to a step 
+**The objective of this exercise is to deduce the effect of feedback on a system:
+   1.**Open-loop response:**
+   Consider the following figure where the boring machine 1 is represented by the transfer function ![image](https://user-images.githubusercontent.com/76071184/144809407-03b38c3d-6f90-4c8e-9922-778165db9203.png) is the reference input which represents the desired angle-of-direction of travel of the machine, Y(s) is the actual angle-of-direction of travel, and D(s) is a disturbance input which represents the load on the machine.  Compare the impulse reference response ![image](https://user-images.githubusercontent.com/76071184/144809664-5eb591d5-e48a-4b99-b43a-0f7c5a5e3583.png) for different values of *p*, the step reference response ![image](https://user-images.githubusercontent.com/76071184/144809753-16b54f90-1331-4eb6-9e8d-1494537403a1.png) for different values of *p*, and the situation wherein there is both a step reference and a specified disturbance input: ![image](https://user-images.githubusercontent.com/76071184/144809857-f7b141ee-e58a-45d8-af49-02b42b169464.png)
+.All simulations are to be carried out over the time range ![image](https://user-images.githubusercontent.com/76071184/144809945-12aebbdc-d560-4ad6-884a-2ec72343c2ac.png)
+ Choose *p* =1,2,5. Your discussions should include the effect of *p* on the steady-state values and the rise time. Can you theoretically determine these values Determine these values?  ![image](https://user-images.githubusercontent.com/76071184/144810237-273a9ff1-10fb-4935-82f8-b2ca9e0deac1.png)
 
-input and a unit-ramp input. Do the outputs follow or track the input? If so, why? If not, why not? Can one theoretically deduce these results? 
-
-
-
-1. The objective of this exercise is to deduce the effect of feedback on a system, specifically, a boring machine. (What were the boring machines that have been used for the “Namma Metro” construction?) The machines operating from both ends of a tunnel bore toward the middle. To link up accurately in the middle of the tunnel, a laser guidance system keeps the machines precisely aligned. (What would happen if this is not ensured?)  
-   1. Open-loop response: Consider the following figure where the boring machine 1 is represented by the transfer function *G*(*s*) = , *R*(*s*) is the reference 
-
-![](Aspose.Words.1db1f892-f5ad-4e3d-a017-6a61b29ad5d3.014.png)
-
-*s*(*s*+ *p*)
-
-input which represents the desired angle-of-direction of travel of the machine, *Y*(*s*)is the actual angle-of-direction of travel, and *D*(*s*) is a disturbance input which represents the load on the machine.  Compare the impulse reference response (i.e., *r*(*t*) =d(*t*), *d*(*t*) = 0) for different values of *p* , the step reference response (i.e., *r*(*t*) =1(*t*), *d*(*t*) = 0) for different values of *p* , 
-
-and the situation wherein there is both a step reference and a specified 
-
-ì1, 0 £ *t* £ 4 disturbance input:   *r*(*t*) =1(*t*), *d*(*t*) =í . All simulations are to be 
-
-î2	4 < *t* £ 8
-
-carried out over the time range 0£ *t* £8. Choose *p* =1, 2,5. Your discussions should include the effect of *p* on the steady-state values and the rise time. Can you theoretically determine these values? D(s)  
-
-
-
-
-
-
-
-\+
-
-
-
-G(s)
-
-
-
-![](Aspose.Words.1db1f892-f5ad-4e3d-a017-6a61b29ad5d3.015.png)R(s) Y(s) 
-
-
-
-
-
-6.2. Closed-loop response: Consider the following figure where we have closed the loop with the transfer function *G*1(*s*) =11*s*+*K* . Compare the impulse reference response (i.e., *r*(*t*) =d(*t*), *d*(*t*) = 0) for different values of *p* , the step reference response (i.e., *r*(*t*) =1(*t*), *d*(*t*) = 0) for different values of *p* , and the 
+   2.**Closed-loop response:**
+   Consider the following figure where we have closed the loop with the transfer function *G*1(*s*) =11*s*+*K* . Compare the impulse reference response (i.e., *r*(*t*) =d(*t*), *d*(*t*) = 0) for different values of *p* , the step reference response (i.e., *r*(*t*) =1(*t*), *d*(*t*) = 0) for different values of *p* , and the 
 
 situation wherein there is both a step reference and a specified disturbance 
 
