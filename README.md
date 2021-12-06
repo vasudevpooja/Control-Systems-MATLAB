@@ -1,7 +1,7 @@
-//Control Systems using MATLAB
+# Control Systems using MATLAB
 
-
-**The objective of the exercise is to become familiar with writing Matlab programs for control systems.**
+ 
+# The objective of the exercise is to become familiar with writing Matlab programs for control systems.**
    1.    **Product of two polynomials:** 
          Let p1(s) and p2(s) be two polynomials. Use Matlab to determine the product of these two polynomials. 
 Obtaining the overall transfer function (Block diagram algebra):
@@ -16,7 +16,7 @@ Let ![Aspose Words 1db1f892-f5ad-4e3d-a017-6a61b29ad5d3 001](https://user-images
    4.    **Transfer functions in a feedback loop:**
          Write a program that allows the user to input the numerator and denominator polynomials of two transfer functions, and outputs the numerator and denominator polynomials of the overall transfer function. Here, 𝐺1(𝑠)* is the forward path transfer function, and 𝐺2(𝑠) is the feedback path transfer function.
    
-**The objective of this exercise is to learn to use Simulink. Consider a circuit with a resistance R, an inductance L, and a capacitance C, all in series with a voltage source.** 
+# The objective of this exercise is to learn to use Simulink. Consider a circuit with a resistance R, an inductance L, and a capacitance C, all in series with a voltage source.** 
   
    1. Determine the transfer function from the applied voltage to the voltage across the capacitance. Hence, obtain the differential equation that governs the dynamics of the system.
    
@@ -26,7 +26,7 @@ Let ![Aspose Words 1db1f892-f5ad-4e3d-a017-6a61b29ad5d3 001](https://user-images
    
       At the Matlab command prompt type simulink. A Simulink library browser opens up. Using the pull-down menu listed under File open a new model. Double click on the Continuous simulink library. Copy the integrator block onto the new model that you created. Create another copy, and connect the two integrators. (Let these two integrators be named One and Two.) From the commonly used blocks get a copy of the summer (sum) the gain block, and the scope block. Connect the output of Two to the scope. Make a second copy of the gain block, and connect the output of one to one gain block and Two to the other gain block. (For visual correctness, it is possible to flip the direction of the gain block by using Ctrl-r.) Double click on the summer and add one more input to the block. Connect the outputs of the gain blocks to two of these inputs. Connect the step block (from the sources simulink library) to the first input through an appropriate gain block. For C=0.01F, L=0.1H, and R=33ohms, simulate and observe the response. 
      
-**The objective of this exercise is to use the building blocks for block-diagram algebra for transfer functions developed in question 1., and to perform basic analysis.**
+# The objective of this exercise is to use the building blocks for block-diagram algebra for transfer functions developed in question 1., and to perform basic analysis.**
 
    1. Using the program/programs developed in question 1, determine the overall transfer function for the figure shown below. The individual transfer functions are as follows:   
 ![image](https://user-images.githubusercontent.com/76071184/144807744-33c40a23-1785-4a4a-8f0f-d688ef1513a2.png) 
@@ -34,7 +34,7 @@ Let ![Aspose Words 1db1f892-f5ad-4e3d-a017-6a61b29ad5d3 001](https://user-images
 And also generate a pole-zero map of the closed-loop transfer function in graphical form using the pzmap function.
 
 
-**The objective of this exercise is to deduce the effect of location of pole and zero on the time-domain response of a system.**
+# The objective of this exercise is to deduce the effect of location of pole and zero on the time-domain response of a system.**
 
    1.    **First-order systems:**
    
@@ -54,11 +54,11 @@ And also generate a pole-zero map of the closed-loop transfer function in graphi
  . Repeat the second order system for different values of *a*. Choose a = 0.1, 1, 10, 100. In your discussion, include as well a comparison of these results with those obtained in second order system. 
 
 
-**The objective of this exercise is to compare the response of systems to different kinds of inputs.**
+# The objective of this exercise is to compare the response of systems to different kinds of inputs.**
 
 Consider the two systems ![Aspose Words 1db1f892-f5ad-4e3d-a017-6a61b29ad5d3 010](https://user-images.githubusercontent.com/76071184/144809016-56f9aecd-2936-4dd7-90bf-91f977dd2254.png) and ![Aspose Words 1db1f892-f5ad-4e3d-a017-6a61b29ad5d3 013](https://user-images.githubusercontent.com/76071184/144809030-e1182a8b-e692-4423-ac9c-3474e369d691.png) Compare the responses of these systems to a step  input and a unit-ramp input. Do the outputs follow or track the input? If so, why? If not, why not? Can one theoretically deduce these results? 
 
-**The objective of this exercise is to deduce the effect of feedback on a system:**
+# The objective of this exercise is to deduce the effect of feedback on a system:**
 
    1.    **Open-loop response:**
    
@@ -67,7 +67,7 @@ Consider the two systems ![Aspose Words 1db1f892-f5ad-4e3d-a017-6a61b29ad5d3 010
  Choose *p* =1,2,5. Your discussions should include the effect of *p* on the steady-state values and the rise time. Can you theoretically determine these values?  ![image](https://user-images.githubusercontent.com/76071184/144810237-273a9ff1-10fb-4935-82f8-b2ca9e0deac1.png)
 
 
-   2.    **Closed-loop response:*?*
+   2.    **Closed-loop response:**
    
    Consider the following figure where we have closed the loop with the transfer function ![image](https://user-images.githubusercontent.com/76071184/144810583-eef6c40d-402d-4522-a05d-692690e7aca4.png). Compare the impulse reference response ![image](https://user-images.githubusercontent.com/76071184/144810661-5fddaea9-0943-42d8-aa49-a485f69623a8.png) for different values of *p* , the step reference response ![image](https://user-images.githubusercontent.com/76071184/144810720-822441e6-59e6-4d68-acfe-4952d4d32bb8.png) for different values of *p*, and the situation wherein there is both a step reference and a specified disturbance input: ![image](https://user-images.githubusercontent.com/76071184/144810865-02784276-2ff8-46d1-bf4b-3d6a2932c45f.png). All simulations are to be carried out over the time range ![image](https://user-images.githubusercontent.com/76071184/144810974-aba15667-809b-40eb-9410-0c6e81ec8520.png). Choose *p*=1,2,5, and consider two different situations: *K*=20,100. Compare these results with those obtained in first order system. Your discussions should include the effect of *p* on the steady-state values and the rise time. Can you theoretically determine these values? 
 ![image](https://user-images.githubusercontent.com/76071184/144811934-9ae47d3d-35f3-4089-ab85-5be74f4cc8ac.png)
