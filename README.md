@@ -1,7 +1,7 @@
 ﻿**Control Systems using MATLAB**
-**
 
-The objective of the exercise is to become familiar with writing Matlab programs for control systems. 
+
+**The objective of the exercise is to become familiar with writing Matlab programs for control systems.**
    1. Product of two polynomials: Let p1(s) and p2(s) be two polynomials. Use Matlab to determine the product of these two polynomials. 
 Obtaining the overall transfer function (Block diagram algebra):
 Let ![Aspose Words 1db1f892-f5ad-4e3d-a017-6a61b29ad5d3 001](https://user-images.githubusercontent.com/76071184/144806674-9e82f894-cef4-4943-ae4f-8d38f90206c8.png) and ![Aspose Words 1db1f892-f5ad-4e3d-a017-6a61b29ad5d3 002](https://user-images.githubusercontent.com/76071184/144806703-a01a0b63-4055-48c2-9ac9-88496a6bb68b.png) be the two given transfer functions, where 𝐺1(𝑠) and 𝐺2(𝑠) are transfer functions of arbitrary order. 
@@ -12,119 +12,25 @@ Let ![Aspose Words 1db1f892-f5ad-4e3d-a017-6a61b29ad5d3 001](https://user-images
 
    4. *Transfer functions in a feedback loop:* Write a program that allows the user to input the numerator and denominator polynomials of two transfer functions, and outputs the numerator and denominator polynomials of the overall transfer function. Here, 𝐺1(𝑠)* is the forward path transfer function, and 𝐺2(𝑠) is the feedback path transfer function.
    
+**The objective of this exercise is to learn to use Simulink. Consider a circuit with a resistance R, an inductance L, and a capacitance C, all in series with a voltage source.** 
+   1. Determine the transfer function from the applied voltage to the voltage across the capacitance. Hence, obtain the differential equation that governs the dynamics of the system.
+   
+   2. Rewrite this differential equation by expressing the highest derivative of the dependent variable in terms other derivatives of the dependent variable and the input. 
+   
+   3. **Implement this in simulink as follows:**
+      At the Matlab command prompt type simulink. A Simulink library browser opens up. Using the pull-down menu listed under File open a new model. Double click on the Continuous simulink library. Copy the integrator block onto the new model that you created. Create another copy, and connect the two integrators. (Let these two integrators be named One and Two.) From the commonly used blocks get a copy of the summer (sum) the gain block, and the scope block. Connect the output of Two to the scope. Make a second copy of the gain block, and connect the output of one to one gain block and Two to the other gain block. (For visual correctness, it is possible to flip the direction of the gain block by using Ctrl-r.) Double click on the summer and add one more input to the block. Connect the outputs of the gain blocks to two of these inputs. Connect the step block (from the sources simulink library) to the first input through an appropriate gain block. For C=0.01F, L=0.1H, and R=33ohms, simulate and observe the response. 
+     
+**The objective of this exercise is to use the building blocks for block-diagram algebra for transfer functions developed in question 1., and to perform basic analysis.**
 
-1. The objective of this exercise is to learn to use Simulink. Consider a circuit with a resistance R, an inductance L, and a capacitance C, all in series with a voltage source. 
-   1. Determine the transfer function from the applied voltage to the voltage across the capacitance. Hence, obtain the differential equation that governs the dynamics of the system. 
-   1. Rewrite this differential equation by expressing the highest derivative of the dependent variable in terms other derivatives of the dependent variable and the input. 
-   1. Implement this in simulink as follows: At the Matlab command prompt type simulink. A Simulink library browser opens up. Using the pull-down menu listed under File open a new model. Double click on the Continuous simulink library. Copy the integrator block onto the new model that you created. Create another copy, and connect the two integrators. (Let these two integrators be named One and Two.) From the commonly used blocks get a copy of the summer (sum) the gain block, and the scope block. Connect the output of Two to the scope. Make a second copy of the gain block, and connect the output of one to one gain block and Two to the other gain block. (For visual correctness, it is possible to flip the direction of the gain block by using Ctrl-r.) Double click on the summer and add one more input to the block. Connect the outputs of the gain blocks to two of these inputs. Connect the step block (from the sources simulink library) to the first input through an appropriate gain block. For C = 0.01 F, L = 0.1 H, and R = 33 ohms, simulate and observe the response. 
-1. The objective of this exercise is to use the building blocks for block-diagram algebra for transfer functions developed in question 1., and to perform basic analysis.  
    1. Using the program/programs developed in question 1., determine the overall transfer function for the figure shown below. The individual transfer functions are as follows:  
 
-*G*1(*s*) = 1 ;*G*2(*s*) = 1 ;*G*3(*s*) =![](Aspose.Words.1db1f892-f5ad-4e3d-a017-6a61b29ad5d3.003.png)2 *s* 2 +1 ;*G*4(*s*) = *s* +1 ; *s* +10 *s* +1 *s* + 4*s* + 4 *s* + 6 
+![image](https://user-images.githubusercontent.com/76071184/144807744-33c40a23-1785-4a4a-8f0f-d688ef1513a2.png)
 
-![](Aspose.Words.1db1f892-f5ad-4e3d-a017-6a61b29ad5d3.004.png)
-
-![](Aspose.Words.1db1f892-f5ad-4e3d-a017-6a61b29ad5d3.005.png)
-
-![](Aspose.Words.1db1f892-f5ad-4e3d-a017-6a61b29ad5d3.006.png)
-
-1 
-
-)
-
-(
-
-;
-
-2
-
-)
-
-(
-
-;
-
-2 
-
-1 
-
-)
-
-(
-
-3
-
-2
-
-1
-
-\=
-
-\=
-
-\+
-
-\+
-
-\=
-
-*s*
-
-*H*
-
-*s*
-
-*H*
-
-*s*
-
-*s* 
-
-*s*
-
-*H*
-
-3.2.
+   And also generate a pole-zero map of the closed-loop transfer function in 
+   graphical form using the pzmap function.
 
 
-
-Generate 
-
-a 
-
-pole
-
-\-
-
-zero 
-
-map 
-
-of 
-
-the 
-
-closed
-
-\-
-
-loop 
-
-transfer 
-
-function 
-
-in 
-
-![](Aspose.Words.1db1f892-f5ad-4e3d-a017-6a61b29ad5d3.007.png) 
-
-graphical form using the **pzmap** function. 
-
-
-
-1. The objective of this exercise is to deduce the effect of location of pole and zero on the time-domain response of a system. 
-
-
+**The objective of this exercise is to deduce the effect of location of pole and zero on the time-domain response of a system.**
 
 1. First-order systems: Consider![](Aspose.Words.1db1f892-f5ad-4e3d-a017-6a61b29ad5d3.008.png) . Compare in terms of rise time and steady-state value the step responses of this system for different values of *p*. Choose p = 0.5, 1, 2, and 10. (For purposes of this experiment, assume the following definition of rise time: the time taken for the output to reach 90% of the final steady-state value.) Based on this, where should one locate the pole if the requirement is a fast response? Where should one locate the pole if the steady-state value of the output is expected to be equal to the input value? Can one independently satisfy both requirements? 
 
