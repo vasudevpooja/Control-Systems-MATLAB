@@ -32,23 +32,19 @@ Let ![Aspose Words 1db1f892-f5ad-4e3d-a017-6a61b29ad5d3 001](https://user-images
 
 **The objective of this exercise is to deduce the effect of location of pole and zero on the time-domain response of a system.**
 
-1. First-order systems: Consider![](Aspose.Words.1db1f892-f5ad-4e3d-a017-6a61b29ad5d3.008.png) . Compare in terms of rise time and steady-state value the step responses of this system for different values of *p*. Choose p = 0.5, 1, 2, and 10. (For purposes of this experiment, assume the following definition of rise time: the time taken for the output to reach 90% of the final steady-state value.) Based on this, where should one locate the pole if the requirement is a fast response? Where should one locate the pole if the steady-state value of the output is expected to be equal to the input value? Can one independently satisfy both requirements? 
+   1. **First-order systems:**
+   Consider ![Aspose Words 1db1f892-f5ad-4e3d-a017-6a61b29ad5d3 008](https://user-images.githubusercontent.com/76071184/144808071-7e1987b5-2dab-4a11-8fbc-be10d6d68747.png) Compare in terms of rise time and steady-state value the step responses of this system for different values of *p*. Choose p = 0.5, 1, 2, and 10. (For purposes of this experiment, assume the following definition of rise time: the time taken for the output to reach 90% of the final steady-state value.) Based on this, where should one locate the pole if the requirement is a fast response? Where should one locate the pole if the steady-state value of the output is expected to be equal to the input value? Can one independently satisfy both requirements? 
+
+   2. **Second-order systems:** 
+   Consider ![Aspose Words 1db1f892-f5ad-4e3d-a017-6a61b29ad5d3 009](https://user-images.githubusercontent.com/76071184/144808208-997d8b29-d0a4-4b9d-820f-f00cb0649576.png) Compare in terms of rise time, the settling time, the peak overshoot, and steady-state value the step responses of this system for different values of *a*: Choose a = 0.1, 2.5, 5, 7.5, 10. (Use the definitions in the prescribed text-book.) Ask questions similar to that in first order system, and discuss the results. 
 
 
+   3.**The effect of an additional pole:**
+   Consider ![Aspose Words 1db1f892-f5ad-4e3d-a017-6a61b29ad5d3 010](https://user-images.githubusercontent.com/76071184/144808321-8fb15dc5-3d92-42b2-96ce-877f73bd6708.png) in cascade with a second order system ![Aspose Words 1db1f892-f5ad-4e3d-a017-6a61b29ad5d3 011](https://user-images.githubusercontent.com/76071184/144808411-dc76c3c3-38db-4237-875e-a46b3e66d460.png) Repeat the second order for different values of *p*. Choose p = 5, 10, 20. In your discussions, include as well a comparison of these results with those obtained in second order system. 
 
-1. Second-order systems: Consider ![](Aspose.Words.1db1f892-f5ad-4e3d-a017-6a61b29ad5d3.009.png). Compare in terms of rise time, the settling time, the peak overshoot, and steady-state value the step responses of this system for different values of *a*: Choose a = 0.1, 2.5, 5, 7.5, 10. (Use the definitions in the prescribed text-book.) Ask questions similar to that in 4.a, and discuss the results. 
-
-
-
-1. The effect of an additional pole: Consider ![](Aspose.Words.1db1f892-f5ad-4e3d-a017-6a61b29ad5d3.010.png)* in cascade with a first order system ![](Aspose.Words.1db1f892-f5ad-4e3d-a017-6a61b29ad5d3.011.png). Repeat the experiment 4.b for different values of *p*. Choose p = 5, 10, 20. In your discussions, include as well a comparison of these results with those obtained in 4.b. 
-
-
-
-1. The effect of an additional zero: Consider ![](Aspose.Words.1db1f892-f5ad-4e3d-a017-6a61b29ad5d3.012.png) . Repeat the experiment 4.b for different values of *a*. Choose a = 0.1, 1, 10, 100. In your discussion, include as well a comparison of these results with those obtained in 4.b. 
-
-
-
-
+   4.**The effect of an additional zero:**
+   Consider ![Aspose Words 1db1f892-f5ad-4e3d-a017-6a61b29ad5d3 012](https://user-images.githubusercontent.com/76071184/144808806-b492d2ce-58c9-47e6-902e-6bfab484228a.png)
+ . Repeat the second order system for different values of *a*. Choose a = 0.1, 1, 10, 100. In your discussion, include as well a comparison of these results with those obtained in second order system. 
 
 1. The objective of this exercise is to compare the response of systems to different kinds of inputs. Consider the two systems ![](Aspose.Words.1db1f892-f5ad-4e3d-a017-6a61b29ad5d3.010.png) and 
 
