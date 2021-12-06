@@ -1,4 +1,4 @@
-﻿**Control Systems using MATLAB**
+//Control Systems using MATLAB
 
 
 **The objective of the exercise is to become familiar with writing Matlab programs for control systems.**
@@ -64,7 +64,7 @@ Consider the two systems ![Aspose Words 1db1f892-f5ad-4e3d-a017-6a61b29ad5d3 010
    
    Consider the following figure where the boring machine 1 is represented by the transfer function ![image](https://user-images.githubusercontent.com/76071184/144809407-03b38c3d-6f90-4c8e-9922-778165db9203.png) is the reference input which represents the desired angle-of-direction of travel of the machine, Y(s) is the actual angle-of-direction of travel, and D(s) is a disturbance input which represents the load on the machine.  Compare the impulse reference response ![image](https://user-images.githubusercontent.com/76071184/144809664-5eb591d5-e48a-4b99-b43a-0f7c5a5e3583.png) for different values of *p*, the step reference response ![image](https://user-images.githubusercontent.com/76071184/144809753-16b54f90-1331-4eb6-9e8d-1494537403a1.png) for different values of *p*, and the situation wherein there is both a step reference and a specified disturbance input: ![image](https://user-images.githubusercontent.com/76071184/144809857-f7b141ee-e58a-45d8-af49-02b42b169464.png)
 .All simulations are to be carried out over the time range ![image](https://user-images.githubusercontent.com/76071184/144809945-12aebbdc-d560-4ad6-884a-2ec72343c2ac.png)
- Choose *p* =1,2,5. Your discussions should include the effect of *p* on the steady-state values and the rise time. Can you theoretically determine these values Determine these values?  ![image](https://user-images.githubusercontent.com/76071184/144810237-273a9ff1-10fb-4935-82f8-b2ca9e0deac1.png)
+ Choose *p* =1,2,5. Your discussions should include the effect of *p* on the steady-state values and the rise time. Can you theoretically determine these values?  ![image](https://user-images.githubusercontent.com/76071184/144810237-273a9ff1-10fb-4935-82f8-b2ca9e0deac1.png)
 
 
    2.    **Closed-loop response:*?*
