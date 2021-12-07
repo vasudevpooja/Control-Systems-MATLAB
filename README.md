@@ -73,7 +73,7 @@ Consider the two systems ![Aspose Words 1db1f892-f5ad-4e3d-a017-6a61b29ad5d3 010
 ![image](https://user-images.githubusercontent.com/76071184/144811934-9ae47d3d-35f3-4089-ab85-5be74f4cc8ac.png)
 
 # Unity Feedback System:
-![image](https://user-images.githubusercontent.com/76071184/145023189-fba79d92-ebe2-4386-8a84-b6b167038b6e.png)
+![image](https://user-images.githubusercontent.com/76071184/145024098-f4f5f309-936b-4dcb-b0d8-480a6ffbd033.png)
 a. Draw the root locus of the system manually and find the range of k forsystem to be stable.
 b. Add a zero at s=-2 and again plot root locus.
 c. Add a pole at s=-2 to G(s) and plot the root locus.
@@ -83,7 +83,7 @@ For (b),(c) and (d) use Matlab. (Note: use rlocus command)
 
 # Asymptotic Bode Plot:
 Sketch the asymptotic Bode plot on a semilog sheet for the transfer function given
-![image](https://user-images.githubusercontent.com/76071184/145023689-6e85f435-c792-489c-a007-fedda14981f1.png)
+![image](https://user-images.githubusercontent.com/76071184/145024182-2d6fc932-aa06-480e-9501-7c7a53f6a918.png)
 Verify the same using MATLAB. (Note: use bode command).
 Find:
 a. Phase crossover frequency
