@@ -90,6 +90,7 @@ For (b),(c) and (d) use Matlab. (Note: use rlocus command)
 # Asymptotic Bode Plot:
 Sketch the asymptotic Bode plot on a semilog sheet for the transfer function given
 ![image](https://user-images.githubusercontent.com/76071184/145024182-2d6fc932-aa06-480e-9501-7c7a53f6a918.png)
+
 Verify the same using MATLAB. (Note: use bode command).
 
 Find:
