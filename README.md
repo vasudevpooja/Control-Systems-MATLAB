@@ -74,22 +74,34 @@ Consider the two systems ![Aspose Words 1db1f892-f5ad-4e3d-a017-6a61b29ad5d3 010
 
 # Unity Feedback System:
 ![image](https://user-images.githubusercontent.com/76071184/145024098-f4f5f309-936b-4dcb-b0d8-480a6ffbd033.png)
+
 a. Draw the root locus of the system manually and find the range of k forsystem to be stable.
+
 b. Add a zero at s=-2 and again plot root locus.
+
 c. Add a pole at s=-2 to G(s) and plot the root locus.
+
 d. Add a zero at s=+2 to G(s) and plot the root locus.
+
 e. Compare and comment on the stability of the system and response timeusing results in (b), (c) and (d).
+
 For (b),(c) and (d) use Matlab. (Note: use rlocus command)
 
 # Asymptotic Bode Plot:
 Sketch the asymptotic Bode plot on a semilog sheet for the transfer function given
 ![image](https://user-images.githubusercontent.com/76071184/145024182-2d6fc932-aa06-480e-9501-7c7a53f6a918.png)
 Verify the same using MATLAB. (Note: use bode command).
+
 Find:
+
 a. Phase crossover frequency
+
 b. Gain crossover frequency
+
 c. Gain margin
+
 d. Phase margin
+
 *Comment on system stability*
 
 
