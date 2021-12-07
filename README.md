@@ -72,3 +72,25 @@ Consider the two systems ![Aspose Words 1db1f892-f5ad-4e3d-a017-6a61b29ad5d3 010
    Consider the following figure where we have closed the loop with the transfer function ![image](https://user-images.githubusercontent.com/76071184/144810583-eef6c40d-402d-4522-a05d-692690e7aca4.png). Compare the impulse reference response ![image](https://user-images.githubusercontent.com/76071184/144810661-5fddaea9-0943-42d8-aa49-a485f69623a8.png) for different values of *p* , the step reference response ![image](https://user-images.githubusercontent.com/76071184/144810720-822441e6-59e6-4d68-acfe-4952d4d32bb8.png) for different values of *p*, and the situation wherein there is both a step reference and a specified disturbance input: ![image](https://user-images.githubusercontent.com/76071184/144810865-02784276-2ff8-46d1-bf4b-3d6a2932c45f.png). All simulations are to be carried out over the time range ![image](https://user-images.githubusercontent.com/76071184/144810974-aba15667-809b-40eb-9410-0c6e81ec8520.png). Choose *p*=1,2,5, and consider two different situations: *K*=20,100. Compare these results with those obtained in first order system. Your discussions should include the effect of *p* on the steady-state values and the rise time. Can you theoretically determine these values? 
 ![image](https://user-images.githubusercontent.com/76071184/144811934-9ae47d3d-35f3-4089-ab85-5be74f4cc8ac.png)
 
+# Unity Feedback System:
+![image](https://user-images.githubusercontent.com/76071184/145023189-fba79d92-ebe2-4386-8a84-b6b167038b6e.png)
+a. Draw the root locus of the system manually and find the range of k forsystem to be stable.
+b. Add a zero at s=-2 and again plot root locus.
+c. Add a pole at s=-2 to G(s) and plot the root locus.
+d. Add a zero at s=+2 to G(s) and plot the root locus.
+e. Compare and comment on the stability of the system and response timeusing results in (b), (c) and (d).
+For (b),(c) and (d) use Matlab. (Note: use rlocus command)
+
+# Asymptotic Bode Plot:
+Sketch the asymptotic Bode plot on a semilog sheet for the transfer function given
+![image](https://user-images.githubusercontent.com/76071184/145023689-6e85f435-c792-489c-a007-fedda14981f1.png)
+Verify the same using MATLAB. (Note: use bode command).
+Find:
+a. Phase crossover frequency
+b. Gain crossover frequency
+c. Gain margin
+d. Phase margin
+*Comment on system stability*
+
+
+
